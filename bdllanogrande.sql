@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
 -- La exportación de datos fue deseleccionada.
 
 -- Volcando estructura para tabla bdllanogrande.venta
-CREATE TABLE IF NOT EXISTS `venta` (
+CREATE TABLE IF NOT EXISTS `ventas` (
   `id_venta` int(10) NOT NULL AUTO_INCREMENT,
   `fecha_venta` date NOT NULL,
   `cantidad_venta` int(10) NOT NULL,
